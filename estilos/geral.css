@@ -2,11 +2,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
+    background-color: #808080;
 }
 
 .hdr {
     background-image: linear-gradient(to top, #000, rgb(146, 144, 144));
     padding: 10px;
+    min-width: 400px;
 }
 
 .title {
@@ -37,11 +39,29 @@ body {
     display: inline-block; 
     text-align: justify;   
     cursor: pointer;
-    transition: all 250ms;
+    transition: all 950ms;
 }
 
 .link:hover {
+    color: #fff;
     filter: brightness(1.2);
     transform: translateY(-2px);
     font-weight: bold;
+}
+
+main {
+    width: 90vw;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 10px;
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 10px;
 }
