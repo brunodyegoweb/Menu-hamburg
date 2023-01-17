@@ -11,7 +11,7 @@
     <!--Icones externos-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header class="hdr">
         <h1 class="title">Meu Site</h1>
         <i class="bi bi-list" onclick="clicar()"></i>
@@ -32,6 +32,13 @@
     </main>
     <footer></footer>
     <script>
+        function mudouTamanho() {
+            if(window.innerWidth >= 768){
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = "none"
+            }
+        }
         function clicar() {
             if(menu.style.display == 'block') {
                 menu.style.display = 'none'
