@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 100px) and (max-width: 768px) {
+    .hdr {
+        background-image:none;
+    }
+
+    .bi {
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 950ms;
+    }
+
+    .bi:hover {
+        color: #fff;
+        transform: translateY(-2px);
+    }
+    
+    .link {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        background-color: #808080;
+        color: #000;
+        border-radius: none;
+    }
+
+    #menu {
+        display: none;
+    }
+}

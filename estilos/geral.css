@@ -8,7 +8,10 @@ body {
 .hdr {
     background-image: linear-gradient(to top, #000, rgb(146, 144, 144));
     padding: 10px;
-    min-width: 400px;
+}
+
+.bi {
+    display: none;
 }
 
 .title {
@@ -17,12 +20,12 @@ body {
     text-shadow: 3px 3px  0 rgba(0, 0, 0, 0.452);   
 }
 
-.menu {  
+#menu {  
     text-align: justify;
     margin-top: 10px;
 }
 
-.menu::after {
+#menu::after {
     display: inline-block;
     content: "";
     width: 100%;
@@ -54,14 +57,20 @@ main {
     background-color: #fff;
     margin: auto;
     margin-top: 10px;
-    width: 500px;
-    height: 400px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 530px;
     border-radius: 10px;
-    padding: 20px 10px;
+    padding: 20px 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.377);
 }
 
 .subtitle {
     text-align: center;
     margin-bottom: 10px;
+}
+
+.paragraphi {
+    text-align: justify;
+    text-indent: 20px;
 }
